@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Midterm 07590686</string>
+    <string name="login_to_facebook">Login To Facebook</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="wittawin_kultummayotin" translatable="false">Wittawin Kultummayotin</string>
+    <string name="add_to_story">Add to Story</string>
+    <string name="view_as">View As</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="more">More</string>
+    <string name="goes_to">Goes to</string>
+    <string name="lives_in">Lives in</string>
+    <string name="silpakorn" translatable="false">มหาวิทยาลัยศิลปากร</string>
+    <string name="nakhonpatom" translatable="false">นครปฐม</string>
+    <string name="from">From</string>
+    <string name="bangkok" translatable="false">กรุงเทพมหานคร</string>
+    <string name="rajabopit" translatable="false">วัดราชบพิธ</string>
+    <string name="welcome">Welcome</string>
+    <string name="invalid">Invalid username or password</string>string>
+</resources>
