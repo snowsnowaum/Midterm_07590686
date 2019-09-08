@@ -26,7 +26,7 @@ public class ProfileActivity extends AppCompatActivity {
             setName.setText(R.string.wittawin_kultummayotin);
             setGoes.setText(R.string.rajabopit);
             setLives.setText(R.string.bangkok);
-            setGoes.setText(R.string.bangkok);
+            setFrom.setText(R.string.bangkok);
 
         }
         else{
