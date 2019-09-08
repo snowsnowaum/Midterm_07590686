@@ -16,9 +16,9 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.profile);
         Intent intent = getIntent();
         String username = intent.getStringExtra("user");
-
+        String welcome = getString(R.string.welcome);
         if(username.equals("aaa")){
-            Toast.makeText(ProfileActivity.this,R.string.welcome+" "+"Wittawin Kultummayotin",Toast.LENGTH_SHORT).show();
+            Toast.makeText(ProfileActivity.this,welcome+" "+"Wittawin Kultummayotin",Toast.LENGTH_SHORT).show();
             TextView setGoes = findViewById(R.id.textviewGoes);
             TextView setName = findViewById(R.id.textViewName);
             TextView setLives = findViewById(R.id.textviewLives);
@@ -30,7 +30,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         }
         else{
-            Toast.makeText(ProfileActivity.this,R.string.welcome+" "+"Promlert Lovichit",Toast.LENGTH_SHORT).show();
+            Toast.makeText(ProfileActivity.this,welcome+" "+"Promlert Lovichit",Toast.LENGTH_SHORT).show();
             TextView setGoes = findViewById(R.id.textviewGoes);
             TextView setName = findViewById(R.id.textViewName);
             TextView setLives = findViewById(R.id.textviewLives);
